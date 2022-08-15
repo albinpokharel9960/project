@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title>project</title>
+        <link rel="stylesheet" href="STYLE.CSS">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+    </head>
+    <body>
+<section class="sub-header">
+<nav>
+    <a href="index.html"><img src="TRIPS/logo.jpg"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="facilities.HTML">Projects</a></li>
+            <li><a href="about us.HTML">Team</a></li>
+            <li><a href="gallery.html">Trips</a></li>
+            <li><a href="contact us.HTML">Contact Us</a></li>
+            </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+
+<h1>About us</h1>
+</section>
+
+<!------abouut us content --------->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Our Team</h1>
+            <p>We are currently a team of 3 permanent members and 10 temperorary members.<BR><BR><BR><BR><BR><BR>Challenges. Tries. Tasks. Experiences.
+                <br><BR><BR><BR><BR><BR>
+                ROLES<BR><BR>
+                Director
+                <br> 
+                Producer
+                <br> 
+                Director of Photography / DoP
+                <br> 
+                Camera Operator
+                <br> 
+                Audio Engineer
+                <br> 
+                Gaffer / Lighting Person
+                <br> 
+                Hosts
+                <br> 
+                 Editors
+               <br><BR><BR><BR>
+               <a href="contact us.HTML" class="hero-btn red-btn" >APPLY NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="TRIPS/rename.jpg ">
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="footer">
+    <h4> About us</h4>
+    <p>Let's make learning more fun and change the world. <br>So grab your backpack and camera and get ready to travel</p>
+<div class="icons">
+    <a href="https://www.facebook.com/"> <i class="fa fa-facebook">  </i></a>
+    <a href="https://twitter.com/"> <i class="fa fa-twitter"></i></a>
+      <a href="https://www.instagram.com/?hl=en"> <i class="fa fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/"> <i class="fa fa-linkedin"></i></a>
+</div>
+</section>
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+
+    }
+</script>
+    </body>
+</html>

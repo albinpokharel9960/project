@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title>project</title>
+        <link rel="stylesheet" href="STYLE.CSS">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+    </head>
+    <body>
+<section class="sub-header">
+<nav>
+    <a href="index.html"><img src="TRIPS/logo.jpg"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="facilities.HTML">Projects</a></li>
+            <li><a href="about us.HTML">Team</a></li>
+            <li><a href="gallery.html">Trips</a></li>
+            <li><a href="contact us.HTML">Contact Us</a></li>
+            </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+
+<h1>contact us</h1>
+</section>
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d226112.6303321112!2d85.0934685262224!3d27.686090474244306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb22e26c1f3089%3A0x76127015b4e03968!2sChandragiri%2C%20Nepal!5e0!3m2!1sen!2snl!4v1660484646436!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Babashram, House 1</h5>
+                    <P>Chandragiri,kathmandu,Nepal</P>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+977 9863330960</h5>
+                    
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5> <a href="mailto:albinpokharel@gmail.com">albinpok@gmail.com</a></h5>
+                    <P>Email us your query </P>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter your email address" required>
+                <input type="text" placeholder="Enter your phone.no" required>
+                <textarea rows="8" placeholder="Message" required></textarea>
+                <button type="submit" clas="hero-btn red-btn">send message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="footer">
+    <h4> About us</h4>
+    <p>Let's make learning more fun and change the world. <br>So grab your backpack and camera and get ready to travel</p>
+<div class="icons">
+  <a href="https://www.facebook.com/"> <i class="fa fa-facebook">  </i></a>
+  <a href="https://twitter.com/"> <i class="fa fa-twitter"></i></a>
+    <a href="https://www.instagram.com/?hl=en"> <i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/"> <i class="fa fa-linkedin"></i></a>
+</div>
+</section>
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+
+    }
+</script>
+    </body>
+</html>

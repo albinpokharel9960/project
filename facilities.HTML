@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title>project</title>
+        <link rel="stylesheet" href="STYLE.CSS">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+    </head>
+    <body>
+<section class="sub-header">
+<nav>
+    <a href="index.html"><img src="TRIPS/logo.jpg"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="facilities.HTML">Projects</a></li>
+            <li><a href="about us.HTML">Team</a></li>
+            <li><a href="gallery.html">Trips</a></li>
+            <li><a href="contact us.HTML">Contact Us</a></li>
+            </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+
+<h1>PROJECTS</h1>
+</section>
+
+<section class="projects">
+    <h1>Our Projects</h1>
+    <p>We have currently worked on 3 projects till date.</p>
+
+
+    <div class="row">
+        <div class="project-col">
+            <img src="TRIPS/CAMPING1.jpg" >
+            <div class="layer">
+                <h3> Annapurna</h3>
+            </div>
+        </div>
+        <div class="project-col">
+            <img src="TRIPS/BRIDGE.jpg">
+            <div class="layer">
+                <h3> Mustang</h3>
+            </div>
+        </div>
+        <div class="project-col">
+            <img src="TRIPS/CAMPING2.jpg">
+            <div class="layer">
+                <h3> Rara</h3>
+            </div>
+        </div>
+    </div>
+    <BR><BR><BR><BR><BR><BR>
+        <hr width="100%" color="black">
+        <BR><BR><BR><BR><BR>
+    <div class="impo">
+        <img src="TRIPS/reno.jpg.jpg">
+    </div>
+
+   
+</section>
+
+
+
+
+
+<section class="footer">
+    <h4> About us</h4>
+    <p>Let's make learning more fun and change the world. <br>So grab your backpack and camera and get ready to travel</p>
+<div class="icons">
+    <a href="https://www.facebook.com/"> <i class="fa fa-facebook">  </i></a>
+  <a href="https://twitter.com/"> <i class="fa fa-twitter"></i></a>
+    <a href="https://www.instagram.com/?hl=en"> <i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/"> <i class="fa fa-linkedin"></i></a>
+</div>
+</section>
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+
+    }
+</script>
+    </body>
+</html>
